@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88c599e-403a-40ad-8cb3-68777d320e5d" name="Changes" comment="Create model classes: Agenda, Group, Contact, Person, Company, Address.">
+    <list default="true" id="a88c599e-403a-40ad-8cb3-68777d320e5d" name="Changes" comment="Final Agenda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/agenda/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
@@ -70,7 +72,8 @@
       <option name="presentableId" value="Default" />
       <updated>1727564131413</updated>
       <workItem from="1727564132295" duration="3982000" />
-      <workItem from="1727798983439" duration="1209000" />
+      <workItem from="1727798983439" duration="6172000" />
+      <workItem from="1728082562668" duration="1868000" />
     </task>
     <task id="LOCAL-00001" summary="Create packages and move Main class to control package.">
       <option name="closed" value="true" />
@@ -88,7 +91,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727567052993</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Final Agenda">
+      <option name="closed" value="true" />
+      <created>1727800275051</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727800275051</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +119,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create packages and move Main class to control package." />
     <MESSAGE value="Create model classes: Agenda, Group, Contact, Person, Company, Address." />
-    <option name="LAST_COMMIT_MESSAGE" value="Create model classes: Agenda, Group, Contact, Person, Company, Address." />
+    <MESSAGE value="Final Agenda" />
+    <option name="LAST_COMMIT_MESSAGE" value="Final Agenda" />
   </component>
 </project>
