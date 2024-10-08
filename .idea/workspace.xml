@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88c599e-403a-40ad-8cb3-68777d320e5d" name="Changes" comment="Final Agenda">
+    <list default="true" id="a88c599e-403a-40ad-8cb3-68777d320e5d" name="Changes" comment="Changes with the association class Member.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/agenda/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +72,9 @@
       <updated>1727564131413</updated>
       <workItem from="1727564132295" duration="3982000" />
       <workItem from="1727798983439" duration="6172000" />
-      <workItem from="1728082562668" duration="1868000" />
+      <workItem from="1728082562668" duration="3107000" />
+      <workItem from="1728227177418" duration="1329000" />
+      <workItem from="1728387810342" duration="4437000" />
     </task>
     <task id="LOCAL-00001" summary="Create packages and move Main class to control package.">
       <option name="closed" value="true" />
@@ -99,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727800275051</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Changes with the association class Member.">
+      <option name="closed" value="true" />
+      <created>1728084482322</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728084482323</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +129,7 @@
     <MESSAGE value="Create packages and move Main class to control package." />
     <MESSAGE value="Create model classes: Agenda, Group, Contact, Person, Company, Address." />
     <MESSAGE value="Final Agenda" />
-    <option name="LAST_COMMIT_MESSAGE" value="Final Agenda" />
+    <MESSAGE value="Changes with the association class Member." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes with the association class Member." />
   </component>
 </project>
