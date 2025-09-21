@@ -42,8 +42,8 @@ public class Agenda {
         this.groups = groups;
     }
 
-    public void addPerson(String firstName, String lastName, String phone, String email, String street, int number, int floor, String city){
-        contactList.add(new Person(firstName, lastName, phone, email, street, number, floor, city));
+    public void addPerson(String firstName, String lastName, String phone, String email){
+        contactList.add(new Person(firstName, lastName, phone, email));
     }
 
     public void addCompany(String firstName, String lastName, String telephone, String email, Address address) {

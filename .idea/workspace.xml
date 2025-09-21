@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="10ba3a9d-5719-4eee-a79d-8b6640919c77" name="Changes" comment="Second commit: Some attributes and methods created.">
+    <list default="true" id="10ba3a9d-5719-4eee-a79d-8b6640919c77" name="Changes" comment="Third commit: Some methods and classes created.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Agenda.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Contact.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/agenda/org/ulpgc/is1/control/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/agenda/org/ulpgc/is1/control/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/agenda/org/ulpgc/is1/model/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/agenda/org/ulpgc/is1/model/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/agenda/org/ulpgc/is1/model/Agenda.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +45,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
@@ -71,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758469941377</updated>
-      <workItem from="1758469942302" duration="3249000" />
+      <workItem from="1758469942302" duration="4573000" />
     </task>
     <task id="LOCAL-00001" summary="First commit: Classes created.">
       <option name="closed" value="true" />
@@ -89,7 +94,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758471930337</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Third commit: Some methods and classes created.">
+      <option name="closed" value="true" />
+      <created>1758473839885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758473839885</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +134,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit: Classes created." />
     <MESSAGE value="Second commit: Some attributes and methods created." />
-    <option name="LAST_COMMIT_MESSAGE" value="Second commit: Some attributes and methods created." />
+    <MESSAGE value="Third commit: Some methods and classes created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Third commit: Some methods and classes created." />
   </component>
 </project>

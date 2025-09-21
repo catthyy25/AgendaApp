@@ -4,7 +4,7 @@ public class Person extends Contact {
     private String firstName;
     private String lastName;
 
-    public Person(String telephone, String email, String firstName, String lastName) {
+    public Person(String firstName, String lastName, String telephone, String email) {
         super(telephone, email);
         this.firstName = firstName;
         this.lastName = lastName;

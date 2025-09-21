@@ -1,4 +1,5 @@
 package org.ulpgc.is1.model;
+import org.ulpgc.is1.model.Address;
 
 public abstract class Contact {
     private String telephone;
@@ -27,6 +28,10 @@ public abstract class Contact {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public Address getAddress() {
+        return address;
     }
 
     public void setAddress(String street, int number, int floor, String city) {
