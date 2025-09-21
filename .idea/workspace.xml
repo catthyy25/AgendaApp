@@ -1,25 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="10ba3a9d-5719-4eee-a79d-8b6640919c77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/agenda/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agenda/agenda.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/control/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/agenda/org/ulpgc/is1/control/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/agenda/org/ulpgc/is1/model/Address.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/agenda/org/ulpgc/is1/model/Agenda.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+    <list default="true" id="10ba3a9d-5719-4eee-a79d-8b6640919c77" name="Changes" comment="Second commit: Some attributes and methods created.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Agenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/model/Group.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="099916f6-b3a1-41c6-ad41-32aaa4cf1d96" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "customColor": "",
@@ -63,11 +71,56 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758469941377</updated>
-      <workItem from="1758469942302" duration="309000" />
+      <workItem from="1758469942302" duration="3249000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit: Classes created.">
+      <option name="closed" value="true" />
+      <created>1758471106487</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758471106487</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Second commit: Some attributes and methods created.">
+      <option name="closed" value="true" />
+      <created>1758471930337</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758471930337</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit: Classes created." />
+    <MESSAGE value="Second commit: Some attributes and methods created." />
+    <option name="LAST_COMMIT_MESSAGE" value="Second commit: Some attributes and methods created." />
   </component>
 </project>

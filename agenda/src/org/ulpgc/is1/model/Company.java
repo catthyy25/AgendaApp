@@ -10,6 +10,7 @@ public class Company extends Contact {
         this.description = description;
     }
 
+    @Override
     public String getName() {
         return name;
     }
