@@ -6,14 +6,10 @@ import java.util.List;
 public class Group {
     private final String name;
     private List<Contact> contactList;
-    private List<Group> groupList;
-    private Contact contact;
 
     public Group(String name) {
         this.name = name;
         this.contactList = new ArrayList<>();
-        this.groupList = new ArrayList<>();
-        this.contact = null;
     }
 
     public String getName() {
@@ -37,22 +33,6 @@ public class Group {
 
     public int size() {
         return contactList.size();
-    }
-
-    public void addGroup(Group group) {
-        groupList.add(group);
-        group.addContact(contact);
-    }
-
-    public void removeGroup(Group group) {
-        if (groupList.contains(group)) {
-            groupList.remove(group);
-            group.removeContact(contact);
-        }
-    }
-
-    public List<Group> getGroupList() {
-        return groupList;
     }
 
 

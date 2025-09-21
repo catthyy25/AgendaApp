@@ -3,7 +3,6 @@ package org.ulpgc.is1.model;
 public class Company extends Contact {
     private String name;
     private String description;
-    private Address address;
 
     public Company(String telephone, String email, String name, String description) {
         super(telephone, email);
@@ -28,11 +27,4 @@ public class Company extends Contact {
         this.description = description;
     }
 
-    public Address getAddress() {
-        return address;
-    }
-
-    public void setAddress(Address address) {
-        this.address = address;
-    }
 }

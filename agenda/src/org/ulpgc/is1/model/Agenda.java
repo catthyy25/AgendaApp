@@ -4,37 +4,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Agenda {
-    private List<Person> persons;
-    private List<Company> companies;
+    private List<Contact> contacts;
     private List<Group> groups;
-    private List<Contact> contactList;
-    private List<Contact> groupList;
+
 
     public Agenda() {
-        this.persons = new ArrayList<>();
-        this.companies = new ArrayList<>();
+        this.contacts = new ArrayList<>();
         this.groups = new ArrayList<>();
-        this.contactList = new ArrayList<>();
-        this.groupList = new ArrayList<>();
     }
 
-    public List<Person> getPersons() {
-        return persons;
+    public List<Contact> getContactList() {
+        return contacts;
     }
 
-    public void setPersons(List<Person> persons) {
-        this.persons = persons;
+    public void setContacts(List<Contact> contacts) {
+        this.contacts = contacts;
     }
 
-    public List<Company> getCompanies() {
-        return companies;
-    }
-
-    public void setCompanies(List<Company> companies) {
-        this.companies = companies;
-    }
-
-    public List<Group> getGroups() {
+    public List<Group> getGroupList() {
         return groups;
     }
 
@@ -42,23 +29,80 @@ public class Agenda {
         this.groups = groups;
     }
 
-    public void addPerson(String firstName, String lastName, String phone, String email){
-        contactList.add(new Person(firstName, lastName, phone, email));
+    public void addPerson(String firstName, String lastName, String telephone, String email){
+        Person person = new Person(firstName, lastName, telephone, email);
+        contacts.add(person);
     }
 
-    public void addCompany(String firstName, String lastName, String telephone, String email, Address address) {
-        Company company = new Company(firstName, lastName, telephone, email);
-        company.setAddress(address);
-        companies.add(company);
-        System.out.println("Added company: " + company.getName() + " with address: " + address);
+    public void addCompany(String name, String description, String telephone, String email) {
+        Company company = new Company(name, description, telephone, email);
+        contacts.add(company);
     }
 
     public void addGroup(String name) {
         Group group = new Group(name);
         groups.add(group);
-        System.out.println("Added group: " + group.getName() + " with name: " + name);
     }
 
+    public void addContactToGroup(Contact contact, String groupName) {
+        for (Group group : groups) {
+            if (group.getName().equals(groupName)) {
+                group.addContact(contact);
+                return;
+            }
+        }
+    }
 
+    public void removeContactFromGroup(Contact contact, String groupName) {
+        for (Group group : groups) {
+            if (group.getName().equals(groupName)) {
+                group.removeContact(contact);
+                return;
+            }
+        }
+    }
+
+    public int getContactCount() {
+        return contacts.size();
+    }
+
+    public int getGroupCount() {
+        return groups.size();
+    }
+
+    public Contact getContact(int index) {
+        if (index >= 0 && index < contacts.size()) {
+            return contacts.get(index);
+        }
+        return null;
+    }
+
+    public Group getGroup(int index) {
+        if (index >= 0 && index < groups.size()) {
+            return groups.get(index);
+        }
+        return null;
+    }
+
+    public void removeContact(int index) {
+        if (index >= 0 && index < contacts.size()) {
+            Contact contact = contacts.get(index);
+            contacts.remove(index);
+
+            // Remove from all groups
+            for (Group group : groups) {
+                group.removeContact(contact);
+            }
+        }
+    }
+
+    public Group getGroupByName(String name) {
+        for (Group group : groups) {
+            if (group.getName().equals(name)) {
+                return group;
+            }
+        }
+        return null;
+    }
 
 }
