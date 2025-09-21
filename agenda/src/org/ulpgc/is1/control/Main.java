@@ -13,7 +13,6 @@ public class Main {
         agenda.addPerson("Juan", "Pérez", "123456789", "juan@email.com");
         agenda.addPerson("María", "González", "987654321", "maria@email.com");
 
-        // Añadir direcciones a los contactos
         Contact contact1 = agenda.getContact(0);
         Contact contact2 = agenda.getContact(1);
 
@@ -42,7 +41,6 @@ public class Main {
         System.out.println("Número de contactos en el grupo 'trabajo' después de borrar: " +
                 (workGroup != null ? workGroup.size() : 0));
 
-        // Mostrar información de los contactos
         System.out.println("\nInformación de contactos:");
         for (int i = 0; i < agenda.getContactCount(); i++) {
             Contact contact = agenda.getContact(i);
