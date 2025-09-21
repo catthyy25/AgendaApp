@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88c599e-403a-40ad-8cb3-68777d320e5d" name="Changes" comment="Changes with the association class Member.">
+    <list default="true" id="10ba3a9d-5719-4eee-a79d-8b6640919c77" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/agenda/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda/agenda.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/agenda/src/org/ulpgc/is1/control/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/agenda/org/ulpgc/is1/control/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/agenda/org/ulpgc/is1/model/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/agenda/org/ulpgc/is1/model/Agenda.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,124 +18,56 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
-}</component>
-  <component name="ProjectId" id="2mif4vVuygxqQNrk5geNNEY8CBr" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "customColor": "",
+  "associatedIndex": 7
+}]]></component>
+  <component name="ProjectId" id="3311oWJlGUXiK546iIbz1z6ig0K" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="org.ulpgc.is1" />
-    </key>
-  </component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23339.11" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23339.11" />
       </set>
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a88c599e-403a-40ad-8cb3-68777d320e5d" name="Changes" comment="" />
-      <created>1727564131413</created>
+      <changelist id="10ba3a9d-5719-4eee-a79d-8b6640919c77" name="Changes" comment="" />
+      <created>1758469941377</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1727564131413</updated>
-      <workItem from="1727564132295" duration="3982000" />
-      <workItem from="1727798983439" duration="6172000" />
-      <workItem from="1728082562668" duration="3107000" />
-      <workItem from="1728227177418" duration="1329000" />
-      <workItem from="1728387810342" duration="4437000" />
+      <updated>1758469941377</updated>
+      <workItem from="1758469942302" duration="309000" />
     </task>
-    <task id="LOCAL-00001" summary="Create packages and move Main class to control package.">
-      <option name="closed" value="true" />
-      <created>1727564740512</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1727564740512</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Create model classes: Agenda, Group, Contact, Person, Company, Address.">
-      <option name="closed" value="true" />
-      <created>1727567052993</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1727567052993</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Final Agenda">
-      <option name="closed" value="true" />
-      <created>1727800275051</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1727800275051</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Changes with the association class Member.">
-      <option name="closed" value="true" />
-      <created>1728084482322</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1728084482323</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Create packages and move Main class to control package." />
-    <MESSAGE value="Create model classes: Agenda, Group, Contact, Person, Company, Address." />
-    <MESSAGE value="Final Agenda" />
-    <MESSAGE value="Changes with the association class Member." />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes with the association class Member." />
   </component>
 </project>
