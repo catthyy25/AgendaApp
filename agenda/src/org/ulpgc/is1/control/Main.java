@@ -33,20 +33,15 @@ public class Main {
         System.out.println("Número de contactos en el grupo 'trabajo': " + workGroup.size());
 
         // 6. Borrar el primer contacto del grupo "trabajo"
-        if (workGroup != null) {
-            workGroup.removeContact(contact1);
-        }
+        workGroup.removeContact(contact1);
 
         // 7. Volver a imprimir por pantalla el número de contactos del grupo "trabajo"
-        System.out.println("Número de contactos en el grupo 'trabajo' después de borrar: " +
-                (workGroup != null ? workGroup.size() : 0));
+        System.out.println("Número de contactos en el grupo 'trabajo' después de borrar: " + workGroup.size());
 
         System.out.println("\nInformación de contactos:");
-        for (int i = 0; i < agenda.getContactCount(); i++) {
-            Contact contact = agenda.getContact(i);
-            System.out.println((i + 1) + ". " + contact.getName() +
-                    " - Tel: " + contact.getTelephone() +
-                    " - Email: " + contact.getEmail());
+        for (int index = 0; index < agenda.getContactCount(); index++) {
+            Contact contact = agenda.getContact(index);
+            System.out.println((index + 1) + ". " + contact.getName() + " - Tel: " + contact.getTelephone() + " - Email: " + contact.getEmail());
         }
     }
 }

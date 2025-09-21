@@ -23,7 +23,7 @@ public class Group {
     public void removeContact(Contact contact) {
         if (contactList.contains(contact)) {
             contactList.remove(contact);
-            System.out.println("Removed contact: " + contact.getName() + " from group: " + name);
+            System.out.println("Eliminamos el contacto '" + contact.getName() + "' del groupo: '" + name + "'");
         }
     }
 
