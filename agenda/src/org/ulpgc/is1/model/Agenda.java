@@ -29,8 +29,8 @@ public class Agenda {
         this.groups = groups;
     }
 
-    public void addPerson(String firstName, String lastName, String telephone, String email){
-        Person person = new Person(firstName, lastName, telephone, email);
+    public void addPerson(String firstName, String lastName, String telephone, String email, String street, int number, int floor, String city){
+        Person person = new Person(firstName, lastName, telephone, email, street, number, floor, city);
         contacts.add(person);
     }
 

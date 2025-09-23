@@ -10,8 +10,8 @@ public class Main {
         Agenda agenda = new Agenda();
 
         // 1. Crear dos contactos en la agenda de tipo Person
-        agenda.addPerson("Juan", "Pérez", "123456789", "juan@email.com");
-        agenda.addPerson("María", "González", "987654321", "maria@email.com");
+        agenda.addPerson("Juan", "Pérez", "123456789", "juan@email.com", "Pasaje", 2, 3, "Arucas");
+        agenda.addPerson("María", "González", "987654321", "maria@email.com", "Calle", 4, 5, "Firgas");
 
         Contact contact1 = agenda.getContact(0);
         Contact contact2 = agenda.getContact(1);

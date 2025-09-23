@@ -27,4 +27,5 @@ public class Company extends Contact {
         this.description = description;
     }
 
+
 }
