@@ -4,105 +4,48 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Agenda {
-    private List<Contact> contacts;
-    private List<Group> groups;
+    private List<Contact> contactList;
+    private List<Group> groupList;
 
 
     public Agenda() {
-        this.contacts = new ArrayList<>();
-        this.groups = new ArrayList<>();
+        this.contactList = new ArrayList<>();
+        this.groupList = new ArrayList<>();
     }
 
     public List<Contact> getContactList() {
-        return contacts;
+        return contactList;
     }
 
-    public void setContacts(List<Contact> contacts) {
-        this.contacts = contacts;
+    public void setContactList(List<Contact> contacts) {
+        this.contactList = contacts;
     }
 
     public List<Group> getGroupList() {
-        return groups;
+        return groupList;
     }
 
-    public void setGroups(List<Group> groups) {
-        this.groups = groups;
+    public void setGroupList(List<Group> groups) {
+        this.groupList = groups;
     }
 
     public void addPerson(String firstName, String lastName, String telephone, String email, String street, int number, int floor, String city){
         Person person = new Person(firstName, lastName, telephone, email, street, number, floor, city);
-        contacts.add(person);
+        if (!contactList.contains(person)) {
+            contactList.add(person);
+        }
     }
 
     public void addCompany(String name, String description, String telephone, String email) {
         Company company = new Company(name, description, telephone, email);
-        contacts.add(company);
+        if (!contactList.contains(company)) {
+            contactList.add(company);
+        }
     }
 
     public void addGroup(String name) {
         Group group = new Group(name);
-        groups.add(group);
-    }
-
-    public void addContactToGroup(Contact contact, String groupName) {
-        for (Group group : groups) {
-            if (group.getName().equals(groupName)) {
-                group.addContact(contact);
-                return;
-            }
-        }
-    }
-
-    public void removeContactFromGroup(Contact contact, String groupName) {
-        for (Group group : groups) {
-            if (group.getName().equals(groupName)) {
-                group.removeContact(contact);
-                return;
-            }
-        }
-    }
-
-    public int getContactCount() {
-        return contacts.size();
-    }
-
-    public int getGroupCount() {
-        return groups.size();
-    }
-
-    public Contact getContact(int index) {
-        if (index >= 0 && index < contacts.size()) {
-            return contacts.get(index);
-        }
-        return null;
-    }
-
-    public Group getGroup(int index) {
-        if (index >= 0 && index < groups.size()) {
-            return groups.get(index);
-        }
-        return null;
-    }
-
-    public void removeContact(int index) {
-        if (index >= 0 && index < contacts.size()) {
-            Contact contact = contacts.get(index);
-            contacts.remove(index);
-
-            // Remove from all groups
-            for (Group group : groups) {
-                group.removeContact(contact);
-            }
-        }
-    }
-
-    public Group getGroupByName(String name) {
-        for (Group group : groups) {
-            if (group.getName().equals(name)) {
-                return group;
-            }
-        }
-        return null;
+        groupList.add(group);
     }
 
 }
